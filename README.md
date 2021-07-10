@@ -14,9 +14,9 @@
   <main>
     <nav>
       <ul>
-        <li> <a ref ="https://garinogeorgiana.github.io/FRONTEND1/lemonpie"="Lemon Pie">frontend1</a>
+        <li> <a ref = "https://garinogeorgiana.github.io/FRONTEND1/lemonpie" = "Lemon Pie">frontend1</a>
         </li>
-        <li>a ref ="https://garinogeorgiana.github.io/FRONTEND1/petshop"="petshop">frontend1</a>
+        <li>a ref ="https://garinogeorgiana.github.io/FRONTEND1/petshop" = "petshop">frontend1</a>
         </li>
       </ul>
    </nav>

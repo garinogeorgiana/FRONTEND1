@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend</title>
+  <h1>Frontend</h1>
 </head>
 <body>
   <header>
@@ -14,9 +14,9 @@
   <main>
     <nav>
       <ul>
-        <li>a ref = "https://garinogeorgiana.github.io/FRONTEND1" = "Lemon Pie">frontend1</a>
+        <a href = "https://garinogeorgiana.github.io/FRONTEND1"="Lemon Pie">frontend1</a>
         </li>
-        <li>a ref ="https://garinogeorgiana.github.io/FRONTEND1" = "petshop">frontend1</a>
+        <a href ="https://garinogeorgiana.github.io/FRONTEND1"="petshop">frontend1</a>
         </li>
       </ul>
    </nav>

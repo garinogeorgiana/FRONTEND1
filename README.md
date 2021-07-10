@@ -14,9 +14,11 @@
   <main>
     <nav>
       <ul>
-        <a href = "https://garinogeorgiana.github.io/FRONTEND1"="Lemon Pie">frontend1</a>
+        <li>
+          <a href = "https://garinogeorgiana.github.io/FRONTEND1/lemonpie/"="lemonpie">Lemonpie</a>
         </li>
-        <a href ="https://garinogeorgiana.github.io/FRONTEND1"="petshop">frontend1</a>
+        <li>
+        <a href ="https://garinogeorgiana.github.io/FRONTEND1/petshop/"="petshop">petshop</a>
         </li>
       </ul>
    </nav>

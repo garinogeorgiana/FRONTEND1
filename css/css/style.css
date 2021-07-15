@@ -1,0 +1,18 @@
+.logo {background-color: rgb(175, 173, 190);100%
+text-align: center;}
+
+h1 {
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: mediumblue;
+    background-color: silver;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*main*/
+.section {
+    line-height: 24px;
+    margin: 0 auto;
+    width: 70%;
+}

@@ -20,6 +20,12 @@
         <li>
         <a href ="https://garinogeorgiana.github.io/FRONTEND1/petshop/"="petshop">petshop</a>
         </li>
+        <li>
+          <a href = "https://garinogeorgiana.github.io/FRONTEND1/cvPropio/cvPropio.html"="cvpropio">cvpropio</a>
+        </li>
+        <li>
+          <a href = "https://garinogeorgiana.github.io/FRONTEND1/cvBatman/cv.html"="cvbatman">cvbatman</a>
+        </li>
       </ul>
    </nav>
   </main>

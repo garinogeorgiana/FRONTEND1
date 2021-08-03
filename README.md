@@ -26,6 +26,9 @@
         <li>
           <a href = "https://garinogeorgiana.github.io/FRONTEND1/cvBatman/cv.html"="cvbatman">cvbatman</a>
         </li>
+        li>
+          <a href = "https://garinogeorgiana.github.io/FRONTEND1/blob/main/card/img/index.html"="heroes">heroes</a>
+        </li>
       </ul>
    </nav>
   </main>

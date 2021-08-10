@@ -1,0 +1,78 @@
+/* GENERALES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+/*  ACA COMIENZA EL BODY  */
+body {
+    font-family:'Roboto', sans-serif;
+}
+:root{
+    --primary-color : #1CD1B0;
+    --second-color: #00669F;
+    --tercer-color: #F3F3F3;
+    --top-color: #D1891C;
+}
+
+body>div{
+
+    background-color: var(--top-color);
+    height: 38px;
+
+}
+
+body>div>p {
+    padding-top: 11px;
+    margin-left: 20px;
+    
+}
+header{
+    background-color:var(--second-color);
+    height: 101px;
+    font-family:'Roboto', sans-serif;
+}
+
+h1{
+    color: white;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+
+/** aqui comienza el main**/
+main {
+    margin-top: 100px;
+}
+
+.contenedor{
+    background-color: red;
+    display: flex;
+}
+
+.hijo-contenedor{
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+}
+
+.cards{
+    width: 40%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 30px 30px 0px 0px;
+
+}
+.batman{
+background-image: url(/heroes/img/fondobatman.png);
+height: 193px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:  center;
+border-radius: 30px 30px 0px 0px;  
+}

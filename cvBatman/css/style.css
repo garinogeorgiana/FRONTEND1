@@ -3,6 +3,8 @@
 h1, h2 { 
     background-color:#C4C4C4;
     color:#005677;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -14,8 +16,7 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
     color: #005677;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
 
 
@@ -31,11 +32,19 @@ h1 {
     font-style: italic;
 }
 
+.centro{
+    margin: 0px auto;
+    width: 70%;
+
+}
+
 
 /***** footer *****/
 .footer {
     background-color:#005677;
     color: white;
     text-align: center;
+    margin: auto;
+    
 }
 

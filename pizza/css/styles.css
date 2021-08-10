@@ -1,0 +1,28 @@
+/** estilos generles**/
+
+
+.container {
+    background-color: black;
+    color: white
+}
+menuNavegacion{
+    color:white
+}
+
+.padre {
+    max-width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex; 
+    flex-direction: column;
+    justify-content:  space-between;
+    gap: 100px
+}
+
+.item {
+    background: #4a4a4a;
+    text-align: center;
+    color:white;
+    margin:5px;
+    padding: 5 px;
+}

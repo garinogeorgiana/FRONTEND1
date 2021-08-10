@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla&display=swap');
+
+*{
+    box-sizing: border-box; 
+    margin: 0%;
+ }
+ 
+:root {
+    --primer-color: #00669F;
+    --segundo-color: #1CD1B0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h2::selection{
+    background-color: black;
+}
+p::selection{
+    background-color: black;
+}
+/**---------HEADER-----------------------**/
+header>p{
+    background-color: var(--segundo-color);
+    font-size: 14px;
+    padding: 6px 0px;
+    padding-left: 20px;
+}
+header>p::selection{
+    background-color: red;
+}
+header>div{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    background-color: var(--primer-color);
+    padding: 6px 0px;
+}
+h2{
+    color: white;
+    font-weight: 100;
+}
+/**---Main formulario Index ----**/
+
+.formularioIndex{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 130px;
+    text-align: center;
+}
+.formularioIndex input{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: 1px solid black;
+}
+input:valid{
+    border: 2px solid var(--segundo-color);  
+}
+
+
+input[type=email]:valid{
+    border: 2px solid var(--segundo-color);  
+
+}
+
+input:focus::placeholder { 
+    color: transparent;
+ }
+
+.formularioIndex input[type= submit]{
+    background-color: var(--segundo-color);
+    border-radius: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-color: transparent;
+}
+.formularioIndex input[type= submit]:hover{
+    background-color:var(--primer-color);
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+h1::first-letter{
+    color: var(--primer-color);
+}
+
+.registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    font-family: 'Karla', sans-serif;
+}
+.registro>p{
+    color: var(--primer-color);
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+footer{
+    background-color: var(--primer-color);
+    color: white;
+    margin-top: 120px;
+     padding: 21px 0px;
+     text-align: center;
+}
+
+/**--Formulario registro--------------------*/
+select{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: 1px solid black;
+}
+.btn-registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    
+}
+.btn-registro input{
+    width: 40%;
+    
+}
+button{
+    background-color:#888888;
+    color: white;
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+button:hover{
+    background-color: var(--segundo-color);
+}
+
+textarea{
+    width: 100%;
+    margin-top: 20px;
+}
+/****----MAIN de cards------------------**/
+main{
+    margin-top: 100px;
+    
+  
+    
+}
+.contenedor{
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   
+}
+
+.cards{
+    width: 20%;
+    background-color: #F3F3F3;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 30px 30px 0px 0px;   
+}
+.bg-batman{
+    background-image: url(../img/bg-batman.png);
+    height: 193px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    border-radius: 30px 30px 0px 0px;   
+
+   
+
+}
+.bg-harley{
+    background-image: url('../img/bg-harley.png');
+    height: 193px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position:  center;
+    border-radius: 30px 30px 0px 0px;   
+
+}
+
+
+.vector{
+    background-image: url(../img/Vector.png);
+    width: 30px;
+    height: 26px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.cards img{
+    border-radius: 50%;
+    bottom: 55px;
+    position: relative;
+    
+}
+
+.cards>h2{
+    padding-bottom: 20px;
+}
+.cards>p{
+   text-align: justify;
+   line-height: 20px;
+   padding: 0px 20px;
+}
+.cards h2{
+    color: black;
+}
+input[type=submit]{
+    background-color: var(--primer-color);
+    color: white;
+    width: 40%;
+    height: 48px;
+    margin-top: 25px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.644);
+}
+input[type=submit]:hover{
+        background-color: rgb(194, 19, 19);
+}
+
+nav{
+    background-color: #001D2D;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding: 10px 0px;
+}
+nav ul{
+    display: flex;
+    gap: 19px;
+    list-style: none;
+    padding-right: 18px;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: var(--segundo-color);
+    text-decoration: underline;
+}
+/*** harley**/
+.harl{
+    background-image: url('../img/bg\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+    padding: 100px 0px;
+}
+.harl{
+	-webkit-animation: bg-pan-top 8s 3 both;
+	        animation: bg-pan-top 8s 3 both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-8-4 7:47:49
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation bg-pan-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes bg-pan-top {
+    0% {
+      background-position: 50% 100%;
+    }
+    100% {
+      background-position: 50% 0%;
+    }
+  }
+  @keyframes bg-pan-top {
+    0% {
+      background-position: 50% 100%;
+    }
+    100% {
+      background-position: 50% 0%;
+    }
+  }
+  
+.footer-harley{
+    margin-top: -20px;
+}
+.contenedor-harly{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 50px ;
+}
+.contenedor-harly>img{
+    border-radius: 50%;
+    position: relative;
+    bottom: 70px;
+    z-index: 5;
+    
+}
+.contenedor-harly>h2{
+    color: #2C0187;
+    font-weight: bold;
+    position: relative;
+    bottom: 80px;
+}
+.contenedor-harly>p{
+    padding: 0px 40px;
+    text-align: justify;
+    line-height: 25px;
+    position: relative;
+    bottom: 50px;
+
+}
+.heart{
+    margin-left: auto;
+    margin-right: 90%
+
+}
+span{
+    color: #2C0187;
+}
+.volver{
+    background-color:#2C0187;
+    padding: 30px 0px;
+    margin-top: 30px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.volver>a{
+color: white;
+}
+.volver>a:hover{
+    color: red;
+    text-decoration: underline;
+}

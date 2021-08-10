@@ -1,0 +1,229 @@
+/******estilos generales****/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --primer-color:#222222;    ;
+    --segundo-color:#F0A83E;
+    --tercer-color: #3c2313;
+    --cuarto-color: #E5E5E5;
+
+
+}
+
+
+.oferta {
+    background-color: var(--primer-color);
+    height: 30 px;
+    font-size: 12px;
+    color: var(--cuarto-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.pais {
+    padding-right: 40px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    padding-right: 15px;
+}
+
+/**********header*******/
+
+.padreheader {
+    background-color: var(--segundo-color);
+    color: var(--cuarto-color);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+
+}
+
+.img {
+    width: 1025px;
+    height: 409px;
+}
+
+h1 {
+    font-size: 25px;
+    padding-left: 58px;
+}
+
+nav {
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cuarto-color);
+    padding: 5px;
+}
+
+a:hover {
+    background-color: var(--tercer-color);
+}
+
+/**************main*********/
+
+.img{
+    background-image:url("/petshop2/img/fotocomedero.png");
+    background-size: cover;
+    height: 500;
+    background-repeat: no-repeat;
+
+}
+
+.comederos {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    left: 250px;
+}
+
+h2 {
+    color:var(--tercer-color);
+    background-color: var(--cuarto-color);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 0px;
+}
+
+.comederos>p{
+    color: var(--tercer-color);
+    line-height: 50px;
+}
+
+input {
+    background-color: var(--segundo-color);
+    color: var(--cuarto-color);
+    width: 190px;
+    height: 50px;
+    border-color: transparent;
+    box-shadow: 1px 1px 10px 10px var(--tercer-color);
+}
+input:hover {
+    background-color: var(--tercer-color);
+}
+
+
+.productos-destacados{
+    margin-top: 50px;
+
+}
+
+.huella {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.productos{
+    background-color:var(--cuarto-color);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 1px px 1px 1px;
+}
+
+
+.churrasquito {
+    background-image: url(/petshop2/img/churrasquito.png);
+    width: 30%;
+    height: 350px;
+    background-size: cover;
+}
+
+.comedero {
+    background-image: url(/petshop2/img/comederochico.png);
+    width: 30%;
+    height: 350px;
+    background-size: cover;
+}
+.juguete {
+    background-image: url(/petshop2/img/Huesito.png);
+    width: 30%;
+    height: 350px;
+    background-size: cover;
+}
+
+.texto-producto{        
+    text-align: center;
+    position: relative;
+    top: 290px;
+    line-height: 20px;
+    font-weight: bold;
+
+}
+
+/*************footer***********/
+
+footer{
+    background-color: var(--primer-color);
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    background-color: var(--tercer-color);
+
+}
+
+.ubicacion-footer{
+    width: 50%;
+    background-color: red;
+    height: 100px;
+    display:flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    background-color: green;
+    width: 50%;
+    height: 100px;
+}
+
+parrafo footer{
+    color:var(--primer-color);
+    text-align: center;
+    color: var(--cuarto-color)
+    
+}
+
+.fas {
+    font-size: 16px;
+    color:var(--cuarto-color);
+}
+
+.datos>p {
+    color: white;
+    font-size: 9px;
+}
+
+.datos>h5 {
+    color: var(--cuarto-color);
+    font-size: 13px;
+}
